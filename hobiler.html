@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hobilerim</title>
+</head>
+<body>
+  <header>
+    <h1>Hobilerim ve İlgi Alanlarım</h1>
+    <p>Boş zamanlarımda yapmayı sevdiğim şeyler.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    -
+    <a href="hobiler.html">Hobilerim</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Sevdiğim Etkinlikler</h2>
+      <article>
+        <p>
+          Bu bölümde hobilerimden ve onları ne sıklıkla yaptığından bahsediyorum.
+          Bu etkinlikler boş zamanlarımda en çok keyif aldığım şeylerdir.
+        </p>
+
+        <img src="img/hobiler.jpg" alt="Boş zaman etkinliklerimi anlatan bir görsel" width="400">
+
+        <ol>
+          <li>Kitap okumak</li>
+          <li>Yürüyüş yapmak</li>
+          <li>Film izlemek</li>
+          <li>Müzik dinlemek</li>
+          <li>Ders çalışmak</li>
+          <li>Kahve içmek</li>
+        </ol>
+      </article>
+    </section>
+
+    <section>
+      <h2>Haftalık Hobi Planım</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Gün</th>
+            <th>Etkinlik</th>
+            <th>Süre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pazartesi</td>
+            <td>Arkadaşlarımla bir şeyler yapmak</td>
+            <td>4 saat</td>
+          </tr>
+          <tr>
+            <td>Çarşamba</td>
+            <td>Eksik olan konularım için ders çalışmak</td>
+            <td>3 saat</td>
+          </tr>
+          <tr>
+            <td>Perşembe</td>
+            <td>Film izlemek ve kitap okumak</td>
+            <td>3 saat</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>İstanbul Haritası</h2>
+      <p>Harita, sayfaya iframe kullanılarak eklenmiştir.</p>
+      <iframe
+        src="https://maps.google.com/maps?q=Istanbul&t=&z=11&ie=UTF8&iwloc=&output=embed"
+        title="İstanbul haritası"
+        width="600"
+        height="450">
+      </iframe>
+    </section>
+
+    <section>
+        <h2>İletişim</h2>
+        <p>Benimle iletişime geçmek için aşağıdaki formu doldurabilirsin.</p>
+
+        <form action="" method="post">
+            <p>
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad">
+            </p>
+
+            <p>
+            <label for="eposta">E-posta adresiniz:</label>
+            <input type="email" id="eposta" name="eposta">
+            </p>
+            <br>
+            <p>
+            <label for="telefon">Telefon numaranız:</label>
+            <input type="tel" id="telefon" name="telefon">
+            </p>
+
+            <p>
+            <label for="konu">Mesajınızın konusu:</label>
+            <select id="konu" name="konu">
+                <option value="hobi">Hobiler hakkında</option>
+                <option value="kitap">Kitap önerisi</option>
+                <option value="diger">Diğer</option>
+            </select>
+            </p>
+
+            <fieldset>
+            <legend>Size hangi yolla yanıt verebilirim?</legend>
+
+            <input type="radio" id="yanit-eposta" name="yanit" value="eposta">
+            <label for="yanit-eposta">E-posta ile</label>
+
+            <input type="radio" id="yanit-telefon" name="yanit" value="telefon">
+            <label for="yanit-telefon">Telefon ile</label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Hangi konular ilginizi çekiyor?</legend>
+            <input type="checkbox" id="kitap" name="ilgi" value="kitap">
+            <label for="kitap">Kitaplar</label>
+
+            <input type="checkbox" id="yuruyus" name="ilgi" value="yuruyus">
+            <label for="yuruyus">Yürüyüş</label>
+            </fieldset>
+
+            <p>
+            <label for="mesaj">Mesajınız:</label>
+            <textarea id="mesaj" name="mesaj" rows="5" cols="40"></textarea>
+            </p>
+
+            <button type="submit">Mesajı Gönder</button>
+        </form>
+    </section>
+
+    <aside>
+      <h2>Not</h2>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Bu siteyi Mahmud Faruk Topçuoğlu hazırladı.</p>
+  </footer>
+</body>
+</html>
